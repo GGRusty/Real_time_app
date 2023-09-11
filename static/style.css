@@ -1,0 +1,127 @@
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.5s;
+    background: #eee;
+}
+
+.red {
+    color: #f46969;
+}
+
+.dark-red {
+    color: #ff0000;
+}
+
+.gray {
+    color: #808080;
+}
+
+.dark-green {
+    color: #008000;
+}
+
+.green {
+    color: #ccffcc;
+}
+
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+}
+
+
+.red-flash {
+    transition: background-color 1s;
+    background-color: #ffcccc !important;
+}
+
+.green-flash {
+    transition: background-color 1s;
+    background-color: #ccffcc !important;
+}
+
+.gray-flash {
+    transition: background-color 1s;
+    background-color: #ccc !important;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Tickers Grid */
+#tickers-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Stock box */
+.stock-box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.5s;
+    background: #eee;
+}
+
+/* Colors */
+.red {
+    color: #f46969;
+}
+
+.dark-red {
+    color: #ff0000;
+}
+
+.gray {
+    color: #808080;
+}
+
+.dark-green {
+    color: #008000;
+}
+
+.green {
+    color: #ccffcc;
+}
+
+/* Form Styles */
+.form-wrapper {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#add-ticker-form {
+    display: inline-block;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Price Information</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <form id="add-ticker-form">
+                <input type="text" id="new-ticker" placeholder="Enter a ticker symbol" required>
+                <button type="submit">Add</button>
+            </form>
+            <p id="timer">Next update in <span id="counter"></span> seconds.</p>
+            <div id="tickers-grid"></div>
+        </div>
+    </div>
+</body>
+
+</html>
